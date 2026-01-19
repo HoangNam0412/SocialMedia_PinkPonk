@@ -1,0 +1,68 @@
+import { IPost } from '../types/post';
+
+export const postsData: IPost[] = [
+  {
+    id: '1',
+    user: {
+      id: '1',
+      username: 'shihab',
+      fullName: 'Trường đz',
+      dp: 'https://random.imagecdn.app/500/200',
+    },
+    caption: 'Trường đẹp trai',
+    image: 'https://random.imagecdn.app/1920/1081',
+    likes: 129,
+    comments: 5,
+    shares: 0,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '2',
+    user: {
+      id: '1',
+      fullName: 'Trường đz',
+      username: 'shihab',
+      dp: 'https://random.imagecdn.app/500/200',
+    },
+    caption: 'Trường đẹp trai',
+    image: 'https://random.imagecdn.app/1920/1070',
+    likes: 798,
+    comments: 52,
+    shares: 10,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '3',
+    user: {
+      id: '1',
+      fullName: 'Trường đz',
+      username: 'shihab',
+      dp: 'https://random.imagecdn.app/500/200',
+    },
+    caption: 'Trường đẹp trai',
+    image: 'https://random.imagecdn.app/1920/1060',
+    likes: 456,
+    comments: 15,
+    shares: 80,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '4',
+    user: {
+      id: '1',
+      fullName: 'Trường đz',
+      username: 'shihab',
+      dp: 'https://random.imagecdn.app/500/200',
+    },
+    caption: 'Trường đẹp trai',
+    image: 'https://random.imagecdn.app/1920/1050',
+    likes: 29,
+    comments: 1,
+    shares: 2,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+];
